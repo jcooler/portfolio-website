@@ -38,7 +38,6 @@ export default function Project({
           <h3 className="text-2xl font-semibold">{title}</h3>
           <div className="flex gap-4 justify-center mt-2">
           <Link
-          alt="Live"
             href={link}
             legacyBehavior>
             <a
@@ -48,7 +47,6 @@ export default function Project({
             </a>
           </Link>
           <Link
-          alt="Source Code"
             href={source}
             legacyBehavior>
             <a
