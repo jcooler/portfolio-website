@@ -91,9 +91,11 @@ export default function Intro() {
             className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
             <BsLinkedin />
           </a>
-          <a href="https://github.com/jcooler"
+          <a
+            href="https://github.com/jcooler"
             target="_blank"
-            rel="noopener noreferrer" className="bg-white text-gray-700 text-[1.15rem] p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
+            rel="noopener noreferrer"
+            className="bg-white text-gray-700 text-[1.15rem] p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
             <FaGithubSquare />
           </a>
         </div>

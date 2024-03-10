@@ -15,7 +15,7 @@ const fadeInAnimationVariants = {
     y: 0,
     transition: {
       delay: 0.05 * index,
-    }
+    },
   }),
 };
 
@@ -23,7 +23,7 @@ export default function Skills() {
   const { ref } = useSectionInView("Skills");
   return (
     <section
-    id="skills"
+      id="skills"
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40">
       <SectionHeading>Skills</SectionHeading>
@@ -36,8 +36,7 @@ export default function Skills() {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-              custom={index}
-              >
+            custom={index}>
             {skill}
           </motion.li>
         ))}

@@ -37,24 +37,24 @@ export default function Project({
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-5 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <div className="flex gap-4 justify-center mt-2">
-          <Link
-            href={link}
-            legacyBehavior>
-            <a
-              target="_blank"
-              rel="noopener noreferrer">
-              <CgWebsite className="w-6 h-6 text-gray-700 flex rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer dark:text-white/60" />
-            </a>
-          </Link>
-          <Link
-            href={source}
-            legacyBehavior>
-            <a
-              target="_blank"
-              rel="noopener noreferrer">
-              <IoCodeSlashOutline className="w-6 h-6 text-gray-700 flex rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer dark:text-white/60" />
-            </a>
-          </Link>
+            <Link
+              href={link}
+              legacyBehavior>
+              <a
+                target="_blank"
+                rel="noopener noreferrer">
+                <CgWebsite className="w-6 h-6 text-gray-700 flex rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer dark:text-white/60" />
+              </a>
+            </Link>
+            <Link
+              href={source}
+              legacyBehavior>
+              <a
+                target="_blank"
+                rel="noopener noreferrer">
+                <IoCodeSlashOutline className="w-6 h-6 text-gray-700 flex rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer dark:text-white/60" />
+              </a>
+            </Link>
           </div>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
