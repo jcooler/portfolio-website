@@ -6,7 +6,7 @@ import { useSectionInView } from "../lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitButton from "./SubmitButton";
 import toast from "react-hot-toast";
-import ContactForm from "./lib/types";
+import ContactForm from "@/email/ContactForm";
 
 
 export default function Contact() {
