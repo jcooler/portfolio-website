@@ -11,9 +11,9 @@ import ThemeContext from "../components/ThemeContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jon Cooler | Full-Stack Developer",
+  title: "Jon Cooler | Front-End Developer",
   description:
-    "Jon Cooler is a full-stack developer with over five years of full-stack experience, and over two decades of experience on the front-end",
+    "Jon Cooler is a Front-End Developer with 20 years of experience",
 };
 
 export default function RootLayout({

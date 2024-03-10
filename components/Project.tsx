@@ -41,6 +41,7 @@ export default function Project({
               href={link}
               legacyBehavior>
               <a
+              aria-label="link to demo"
                 target="_blank"
                 rel="noopener noreferrer">
                 <CgWebsite className="w-6 h-6 text-gray-700 flex rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer dark:text-white/60" />
@@ -50,6 +51,7 @@ export default function Project({
               href={source}
               legacyBehavior>
               <a
+              aria-label="link to code"
                 target="_blank"
                 rel="noopener noreferrer">
                 <IoCodeSlashOutline className="w-6 h-6 text-gray-700 flex rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-115 transition cursor-pointer dark:text-white/60" />

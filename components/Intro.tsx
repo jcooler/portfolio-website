@@ -85,6 +85,7 @@ export default function Intro() {
         </a>
         <div className="flex flex-row justify-center gap-2">
           <a
+          aria-label="LinkedIn profile for Jon Cooler"
             href="https://www.linkedin.com/in/joncooler/"
             target="_blank"
             rel="noopener noreferrer"
@@ -92,6 +93,7 @@ export default function Intro() {
             <BsLinkedin />
           </a>
           <a
+          aria-label="GitHub profile for Jon Cooler"
             href="https://github.com/jcooler"
             target="_blank"
             rel="noopener noreferrer"

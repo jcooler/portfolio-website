@@ -45,12 +45,14 @@ export default function Contact() {
         <input
           name="senderEmail"
           type="email"
+          aria-label="enter email"
           required
           maxLength={50}
           placeholder="Email"
           className="h-14 rounded-lg borderBlack px-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
         />
         <textarea
+        aria-label="enter message"
           name="message"
           required
           maxLength={5000}
