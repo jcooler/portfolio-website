@@ -25,10 +25,10 @@ export default function About() {
         refreshing the page to see what would happen. This is how I first
         learned about <span className="font-medium">front-end development</span>
         . <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
+        problem-solving aspect. I <span className="font-medium">love</span> the
         feeling of finally figuring out a solution to a problem. I mainly use{" "}
-        <span className="font-medium">React and Next.js </span>
-        but, I am also familiar with things like JQuery and TypeScript. I am
+        <span className="font-medium">TypeScript, React, Next.js, and TailwindCSS </span>
+        but, I am also familiar with things like JQuery and Bootstrap. I am
         always looking to learn about new technologies and make it a point to
         learn something new everyday!
       </p>

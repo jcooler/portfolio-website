@@ -6,7 +6,7 @@ export default function Footer() {
       <small className='mb-2 block text-xs'>
         &copy; 2024 Jon Cooler
       </small>
-      <p className='text-xs'><span className='font-semibold'>Built with love</span> using React, Next.js TypeScript, TailwindCSS, Framer-Motion, React Email, & Resend. Hosted on Vercel</p>
+      <p className='text-xs'><span className='font-semibold'>Built with love</span> using React, Next.js, TypeScript, TailwindCSS, Framer-Motion, React Email, & Resend. Hosted on Vercel</p>
     </footer>
   )
 }

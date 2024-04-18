@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import quantumvista from "/public/quantumvista.png";
 import investmentcalculator from "/public/investmentcalculator.png";
+import portfoliowebsite from "/public/portfoliowebsite.png";
 import { IoCodeSlashOutline } from "react-icons/io5";
 
 export const links = [
@@ -38,9 +39,9 @@ export const experiencesData = [
     title: "freelancer",
     location: "Atlanta, GA",
     description:
-      "I worked on various small projects as a freelancer from 2003 to 2017, including consulting and a few websites for local businesses",
+      "I have worked on various small projects as a freelancer, coached, and mentored developers since 2003.",
     icon: React.createElement(IoCodeSlashOutline),
-    date: "2003-2017",
+    date: "2003-Current",
   },
   {
     title: "Graduated College",
@@ -62,13 +63,30 @@ export const experiencesData = [
     title: "Lead Web Developer",
     location: "Atlanta, GA",
     description:
-      "Currently the lead Web Developer supporting a web application with nearly 10,000 users. I lead several projects focusing on revitalizing existing webpages and introducing new ones to elevate the functionality and capabilities of the app.",
+      "Supported a web application with nearly 10,000 users, and over 2.5 million lines of code. Lead several projects focusing on revitalizing existing webpages and introducing new ones to elevate the functionality and capabilities of the app.",
     icon: React.createElement(FaReact),
-    date: "2022 - ",
+    date: "2022 - 2024",
+  },
+  {
+    title: "Senior Web Developer",
+    location: "Atlanta, GA",
+    description:
+      "Currently the Senior Web Developer supporting a web application undergoing a modernization effort. Working with system architects to design and implement new features and enhancements. I also lead a team of developers to ensure the successful completion of projects.",
+    icon: React.createElement(FaReact),
+    date: "2024 - ",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Portfolio Website",
+    description:
+      "Portfolio website built with Next.js, TypeScript, TailwindCSS, and Framer Motion. Deployed with Vercel.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer Motion"],
+    imageUrl: portfoliowebsite,
+    link: "https://jcooler.dev/",
+    source: "https://github.com/jcooler/portfolio-website",
+  },
   {
     title: "QuantumVista",
     description:
