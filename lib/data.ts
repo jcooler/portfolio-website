@@ -86,7 +86,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "Bootstrap", "MongoDB", "Node.js", "Express", "TypeScript" ],
     imageUrl: applicantwizard,
     link: "https://applicantwizard.vercel.app/",
-    source: "https://github.com/jcooler/crypto-app",
+    source: "https://github.com/jcooler/Recruiting-Tool",
   },
   {
     title: "QuantumVista",
