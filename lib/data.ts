@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import quantumvista from "/public/quantumvista.png";
 import investmentcalculator from "/public/investmentcalculator.png";
 import portfoliowebsite from "/public/portfoliowebsite.png";
+import applicantwizard from "/public/applicantwizard.png";
 import { IoCodeSlashOutline } from "react-icons/io5";
 
 export const links = [
@@ -79,6 +80,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "applicantwizard",
+    description:
+      "Applicant Tracking System built with MERN. Login/Signup and search features, with basic CRUD operations. Deployed with Vercel. username/password: test(lowercase)",
+    tags: ["React", "Next.js", "Bootstrap", "MongoDB", "Node.js", "Express", "TypeScript" ],
+    imageUrl: applicantwizard,
+    link: "https://applicantwizard.vercel.app/",
+    source: "https://github.com/jcooler/crypto-app",
+  },
+  {
+    title: "QuantumVista",
+    description:
+      "Crypto news/price tracking web app that shows latest news & prices for various Cryptos via a public API. Deployed with Netlify and environment variables to hide sensitive data.",
+    tags: ["React", "Vite", "Git", "Tailwind"],
+    imageUrl: quantumvista,
+    link: "https://quantumvista.netlify.app/",
+    source: "https://github.com/jcooler/crypto-app",
+  },
+  {
     title: "Portfolio Website",
     description:
       "Portfolio website built with Next.js, TypeScript, TailwindCSS, and Framer Motion. Deployed with Vercel.",
@@ -86,24 +105,6 @@ export const projectsData = [
     imageUrl: portfoliowebsite,
     link: "https://jcooler.dev/",
     source: "https://github.com/jcooler/portfolio-website",
-  },
-  {
-    title: "QuantumVista",
-    description:
-      "Crypto news/price tracking web app that shows latest news & prices for various Cryptos via a public API. Deployed with Netlify and serverless functions to hide sensitive data.",
-    tags: ["React", "Vite", "Git", "Tailwind"],
-    imageUrl: quantumvista,
-    link: "https://quantumvista.netlify.app/",
-    source: "https://github.com/jcooler/crypto-app",
-  },
-  {
-    title: "Investment Calculator",
-    description:
-      "Investment calculator that calculates the future value of an investment based on a fixed interest rate. Deployed with GitHub Pages.",
-    tags: ["React", "Vite", "Git", "Tailwind", "GitHub"],
-    imageUrl: investmentcalculator,
-    link: "https://jcooler.github.io/react-investment-calculator/",
-    source: "https://github.com/jcooler/react-investment-calculator",
   },
 ] as const;
 
@@ -119,7 +120,10 @@ export const skillsData = [
   "Tailwind",
   "SASS",
   "JQuery",
-  "Redux",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "Bitbucket",
   "Framer Motion",
   "Vite",
   "Jest",
