@@ -36,14 +36,13 @@ export default function Intro() {
             />
           </motion.div>
           <motion.span
-            className="absolute bottom-0 right-0 text-6xl"
+            className="absolute bottom-0 right-0 text-6xl origin-bottom-right"
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{ opacity: 1, scale: 1, rotate: [0, 20, -10, 20, -10, 15, 0] }}
             transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
+              opacity: { type: "spring", stiffness: 125, delay: 0.1, duration: 0.7 },
+              scale: { type: "spring", stiffness: 125, delay: 0.1, duration: 0.7 },
+              rotate: { delay: 1.8, duration: 1.2, ease: "easeInOut" },
             }}>
             👋
           </motion.span>
@@ -54,10 +53,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         <span className="font-bold">Hi, I'm Jon.</span> I'm a{" "}
-        <span className="font-bold">Front-End Developer</span> with{" "}
-        <span className="font-bold">over a decade</span> of experience. I enjoy
-        tackling <span className="italic">new challenges</span>. My focus is{" "}
-        <span className="font-bold">React (Next.js)</span>.
+        <span className="font-bold">Senior Full Stack Software Engineer</span> with{" "}
+        <span className="font-bold">over half a decade</span> of experience. I enjoy
+        tackling <span className="italic">new challenges</span>.
       </motion.h1>
 
       <motion.div

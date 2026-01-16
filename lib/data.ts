@@ -37,20 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "freelancer",
-    location: "Atlanta, GA",
-    description:
-      "I have worked on various small projects as a freelancer, coached, and mentored developers since 2003.",
-    icon: React.createElement(IoCodeSlashOutline),
-    date: "2003-Current",
-  },
-  {
     title: "Graduated College",
     location: "Atlanta, GA",
     description:
-      "I attended college from January of 2017 to August of 2019 and obtained a B.S in Computer Science from American Military University. I took the maximum amount of credits each semester and graduated Cum Laude, with a 3.52 GPA. I also worked full-time as a Law Enforcement Officer while attending college full-time",
+      "I attended college from January of 2017 to August of 2019 and obtained a B.S in Computer Science from American Military University. I graduated Cum Laude, with a 3.52 GPA. I also worked as a Law Enforcement Officer while attending college full-time",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
+  },
+  {
+    title: "Software Engineer",
+    location: "Atlanta, GA",
+    description:
+      "I have worked on various projects as a freelancer, coached, and mentored developers.",
+    icon: React.createElement(IoCodeSlashOutline),
+    date: "2020-Current",
   },
   {
     title: "Application Support Engineer",
@@ -61,7 +61,7 @@ export const experiencesData = [
     date: "2021 - 2022",
   },
   {
-    title: "Lead Web Developer",
+    title: "Web Developer",
     location: "Atlanta, GA",
     description:
       "Supported a web application with nearly 10,000 users, and over 2.5 million lines of code. Lead several projects focusing on revitalizing existing webpages and introducing new ones to elevate the functionality and capabilities of the app.",
@@ -74,7 +74,23 @@ export const experiencesData = [
     description:
       "Currently the Senior Web Developer supporting a web application undergoing a modernization effort. Working with system architects to design and implement new features and enhancements. I also lead a team of developers to ensure the successful completion of projects.",
     icon: React.createElement(FaReact),
-    date: "2024 - ",
+    date: "2024 - Current",
+  },
+  {
+    title: "Started College",
+    location: "Atlanta, GA",
+    description:
+      "Currently enrolled in a master's program in Cybersecurity at American Military University.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 - Current",
+  },
+  {
+    title: "Obtained Certifications",
+    location: "Atlanta, GA",
+    description:
+      "Successfully obtained Security+, Scrum Master, Product Owner, and Trusted Tester certifications to further my knowledge and skills.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2025",
   },
 ] as const;
 
@@ -118,7 +134,7 @@ export const skillsData = [
   "Bootstrap",
   "Git",
   "Tailwind",
-  "SASS",
+  "PostgreSQL",
   "JQuery",
   "Node.js",
   "Express",
@@ -128,8 +144,10 @@ export const skillsData = [
   "Vite",
   "Jest",
   "Responsive design",
-  "Accessibility",
   "Version Control",
   "GitHub",
-  "Postman"
+  "Postman",
+  "WCAG / 508 Compliance",
+  "Agile",
+  "Jenkins",
 ] as const;
